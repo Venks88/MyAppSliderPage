@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="1"
+        android:background="@drawable/pagetwobkgnd">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="117dp"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#ffdbffe0"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView2"
+                android:src="@drawable/catchooser"
+                android:cropToPadding="false"
+                android:layout_marginRight="250dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="117dp"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#ffdbffe0"
+            android:layout_marginTop="160dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView3"
+                android:layout_weight="0.29"
+                android:src="@drawable/dogchooser"
+                android:layout_marginRight="250dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="117dp"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#ffdbffe0"
+            android:layout_marginTop="320dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView4"
+                android:layout_weight="0.29"
+                android:src="@drawable/exoticchooser"
+                android:layout_marginRight="250dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE !"
+            android:id="@+id/bt_catchooser"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="35dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE !"
+            android:id="@+id/bt_dogchooser"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginBottom="65dp"
+            android:layout_marginRight="35dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE !"
+            android:id="@+id/bt_exoticchooser"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="35dp"
+            android:singleLine="false"
+            android:layout_marginBottom="165dp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:id="@+id/imageView5"
+            android:layout_gravity="right|bottom"
+            android:src="@drawable/spcalogo" />
+    </FrameLayout>
+</RelativeLayout>

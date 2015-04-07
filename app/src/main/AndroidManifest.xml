@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.venkata.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_main"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".LoginPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ListViewOfCat"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".ListViewOfDog"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".ListViewOfExotic"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity android:name=".AnimalDogDisplayPage">
+        </activity>
+
+        <activity android:name=".AnimalCatDisplayPage">
+        </activity>
+
+        <activity android:name=".AnimalExoticDisplayPage">
+        </activity>
+
+        <activity android:name=".AnimalTypeChooserClass">
+        </activity>
+
+        <activity android:name=".EmailSPCAPage">
+        </activity>
+
+
+    </application>
+
+
+
+</manifest>
+
+
+

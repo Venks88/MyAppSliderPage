@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff000000">
+
+        <ImageView
+            android:layout_width="249dp"
+            android:layout_height="185dp"
+            android:id="@+id/iv_loginpage"
+            android:layout_gravity="center_horizontal|top"
+            android:src="@drawable/spcalogo" />
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="35dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/et_Email"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="99dp"
+            android:editable="true"
+            android:background="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email ID"
+            android:id="@+id/textView3"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ff3a39ff"
+            android:textSize="21dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TO"
+            android:id="@+id/textView4"
+            android:layout_gravity="center"
+            android:layout_marginBottom="75dp"
+            android:textColor="#ff3a39ff"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spca@spcamontreal.ca"
+            android:id="@+id/textView5"
+            android:layout_gravity="center"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:textColor="#ffc4ff08"
+            android:layout_marginBottom="45dp"
+            android:layout_marginLeft="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:ems="10"
+            android:id="@+id/et_message"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="85dp"
+            android:background="#ffffffff"
+            android:editable="true"
+            android:autoText="false"
+            android:focusable="true"
+            android:gravity="top" />
+
+        <Button
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="SEND !!"
+            android:id="@+id/bt_Send"
+            android:layout_gravity="left|bottom"
+            android:textStyle="bold|italic"
+            android:alpha="100"
+            android:background="#ffd6d6d6" />
+
+        <ImageView
+            android:layout_width="321dp"
+            android:layout_height="93dp"
+            android:id="@+id/iv_thankyoulogo"
+            android:layout_gravity="center_horizontal|top"
+            android:src="@drawable/spcalogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Thank you for contacting SPCA, please use the Confirmation Number, when you call us, to find out more :)"
+            android:id="@+id/tv_thankyoutext"
+            android:layout_gravity="center"
+            android:textColor="#ffffffff"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:layout_marginBottom="75dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Confirmation Number: "
+            android:id="@+id/tv_confnumindicatorthankyou"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:textStyle="bold|italic"
+            android:textColor="#ffffd0a3"
+            android:textIsSelectable="false"
+            android:textSize="17dp"
+            android:gravity="start|top"
+            android:maxLines="1"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone # 514 XXX XXXX"
+            android:id="@+id/tv_phonethankyou"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textColor="#ffff0700"
+            android:textStyle="bold|italic"
+            android:textSize="17dp"
+            android:layout_marginBottom="65dp" />
+
+        <TextView
+            android:layout_width="218dp"
+            android:layout_height="52dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Confirmation Number"
+            android:id="@+id/tv_ConfirmationNumber"
+            android:layout_gravity="center"
+            android:textColor="#ffffbeba"
+            android:layout_marginLeft="23dp"
+            android:layout_marginBottom="13dp"
+            android:textSize="18dp"
+            android:layout_marginTop="100dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Animal Selection"
+            android:id="@+id/bt_backtoanimalselection"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#ffd6d6d6" />
+
+    </FrameLayout>
+</LinearLayout>
